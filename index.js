@@ -4,5 +4,5 @@ function distanceFromHqInBlocks(passengerLocation){
   if(passengerLocation < hqPosition){
     return (passengerLocation - hqPosition) * -1;
   }
-  return ;  passengerLocation - hqPosition;
+  return  passengerLocation - hqPosition;
 };
