@@ -10,3 +10,7 @@ function distanceFromHqInBlocks(passengerLocation){
 function distanceFromHqInFeet(passengerLocation){
   return (distanceFromHqInBlocks(passengerLocation) * 264);
 };
+
+function distanceTravelledInFeet(startLocation, endLocation){
+  return distanceFromHqInFeet(endLocation) - distanceFromHqInFeet(startLocation)
+};
