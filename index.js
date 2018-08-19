@@ -6,3 +6,7 @@ function distanceFromHqInBlocks(passengerLocation){
   }
   return  passengerLocation - hqPosition;
 };
+
+function distanceFromHqInFeet(passengerLocation){
+  return (distanceFromHqInBlocks(passengerLocation) * 264);
+};
