@@ -28,5 +28,4 @@ function calculatesFarePrice(start, destination){
   }
   else
     return (distanceInFeet -= 400) * 25;
-  }
 }
